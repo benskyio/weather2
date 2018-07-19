@@ -27,7 +27,7 @@ body {
 
 .la-weather {
   float: left;
-  margin: 25px;
+  margin: 15px;
   text-align: center;
   max-width: 35%;
   height: 8em;
@@ -41,7 +41,7 @@ body {
 
 .ny-weather {
   float: right;
-  margin: 25px;
+  margin: 15px;
   text-align: center;
   max-width: 35%;
   height: 8em;
@@ -210,82 +210,6 @@ h1, h2, h3, h6 {
   #mainNav .navbar-collapse .navbar-nav>.nav-item>.nav-link {
     padding: 15px
   }
-}
-
-footer.footer {
-  padding: 50px 0 20px;
-  color: rgba(255, 255, 255, 0.7);
-  background-size: cover;
-  background-attachment: scroll
-}
-
-@media(min-width:1024px) {
-  footer.footer {
-    background-attachment: fixed
-  }
-}
-
-@media only screen and (min-device-width:768px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:2) {
-  footer.footer {
-    background-attachment: scroll
-  }
-}
-
-footer.footer a {
-  color: rgba(255, 255, 255, 0.85)
-}
-
-footer.footer a:hover {
-  color: white
-}
-
-footer.footer p {
-  font-size: 22px
-}
-
-footer.footer .footer-contact-details {
-  margin: 75px 0
-}
-
-.btn {
-  font-weight: 900;
-  padding: 12px 18px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border-radius: 0
-}
-
-.btn-primary {
-  border: 1px solid white;
-  background-color: transparent
-}
-
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  color: #ef4035 !important;
-  border-color: white !important;
-  background-color: white !important
-}
-
-.btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 3px rgba(239, 64, 53, 0.5) !important;
-  box-shadow: 0 0 0 3px rgba(239, 64, 53, 0.5) !important
-}
-
-.btn-secondary {
-  border: 1px solid #222;
-  background-color: transparent;
-  color: #222
-}
-
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  color: white !important;
-  border-color: #ef4035 !important;
-  background-color: #ef4035 !important
-}
-
-.btn-secondary:active, .btn-secondary:focus {
-  -webkit-box-shadow: 0 0 0 3px rgba(239, 64, 53, 0.5) !important;
-  box-shadow: 0 0 0 3px rgba(239, 64, 53, 0.5) !important
 }
 
 button:hover {
