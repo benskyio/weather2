@@ -91,12 +91,6 @@ hr.colored {
   border-color: #ef4035
 }
 
-@media(min-width:992px) {
-  hr {
-    max-width: 150px
-  }
-}
-
 section.page-section {
   padding: 100px 0
 }
@@ -147,15 +141,6 @@ h1, h2, h3, h6 {
   font-weight: 900
 }
 
-@media(min-width:768px) {
-  h1 {
-    font-size: 52px
-  }
-  h2 {
-    font-size: 50px
-  }
-}
-
 #mainNav {
   background-color: dodgerblue;
 }
@@ -188,28 +173,6 @@ h1, h2, h3, h6 {
 
 #mainNav .navbar-collapse .navbar-nav>.nav-item>.nav-link:focus, #mainNav .navbar-collapse .navbar-nav>.nav-item>.nav-link:hover {
   color: rgba(255, 255, 255, 0.5)
-}
-
-@media(min-width:992px) {
-  #mainNav {
-    height: auto;
-    -webkit-transition: padding-top .3s, padding-bottom .3s;
-    transition: padding-top .3s, padding-bottom .3s;
-    background-color: dodgerblue
-  }
-  #mainNav .navbar-brand {
-    font-size: 26px;
-    line-height: 50px
-  }
-  #mainNav .navbar-collapse .navbar-nav>.nav-item {
-    margin-right: 5px
-  }
-  #mainNav .navbar-collapse .navbar-nav>.nav-item:last-child {
-    margin-right: 0
-  }
-  #mainNav .navbar-collapse .navbar-nav>.nav-item>.nav-link {
-    padding: 15px
-  }
 }
 
 button:hover {
